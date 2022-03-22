@@ -13,7 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 
 
-REFRESH_DATA = False
+REFRESH_DATA = True
 
 with open("./data.json", "r") as f:
     data = json.load(f)
