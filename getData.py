@@ -15,7 +15,8 @@ driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 #     "https://www.pakwheels.com/used-cars/search/-/mk_toyota/md_corolla/vr_xli-vvti/yr_2009_2009/")
 # driver.get("https://www.pakwheels.com/used-cars/kia-sportage-awd-islamabad/415087")
 # driver.get("https://www.pakwheels.com/used-cars/kia-sportage-awd-karachi/417298")
-driver.get("https://www.pakwheels.com/used-cars/search/-/mk_toyota/md_corolla/vr_altis-1-8-grande-automatic/yr_2020_2021/ct_islamabad/ct_rawalpindi/")
+# driver.get("https://www.pakwheels.com/used-cars/search/-/mk_toyota/md_corolla/vr_altis-1-8-grande-automatic/yr_2020_2021/ct_islamabad/ct_rawalpindi/")
+driver.get("https://www.pakwheels.com/used-cars/search/-/mk_honda/md_civic/ct_islamabad/ct_rawalpindi/tr_manual/yr_2013_2017/")
 print(driver.title)
 collectedPrices = []
 
